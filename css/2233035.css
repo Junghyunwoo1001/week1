@@ -6,15 +6,18 @@ body {
     color: rgb(70, 69, 61);
     text-align: center;
 }
+/* 소개글*/
 .introduction {
     height: 300px;
 }
 mark {
     background-color: rgba(210, 129, 218, 0.699);
 }
+/*목차*/
 .index mark{
     background-color: gold;
 }
+
 .index ol {
     background-color: azure;
     width: 500px;
@@ -30,16 +33,52 @@ mark {
 .index a:hover {
     color:rgb(255, 255, 255)
 }
+/*운영진*/
 .mentor table {
     border: 3px solid green;/*굵기 선종류 색상*/
 }
 .mentor table td {
     height: 50px;
     width: 100px;
-    border: 3px dotted rgb(209, 136, 41);
+    border: 3px dotted rgb(204, 141, 47);
     background-color: blanchedalmond;
     text-align: center;
 }
+/*팀원*/
+.group table {
+    border: 3px solid green;
+    border-collapse: collapse;
+}
+.group table tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+.group table td {
+    height: 50px;
+    width: 100px;
+    border: 3px solid green;
+    text-align: center;
+}
+/*링크*/
+.link1 ul{
+    background-color: azure;
+    width: 500px;
+}
+.link1 li {
+    background-color: beige;
+    margin-bottom: 10px;
+}
+.link1 a{
+    text-decoration-line: none;
+}
+.link1 a:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+.link1 li:hover {
+    background-color: blueviolet;
+    color: rgb(104, 180, 84);
+}
+/*소사캠*/
 .school img{
     width: auto;
     height: 250px;
