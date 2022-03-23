@@ -47,37 +47,25 @@ mark {
 /*팀원*/
 .group table {
     border-collapse: collapse;
-    border: 3px solid green;
 }
 .group table tr:nth-child(odd) {
     background-color: blanchedalmond;
 }
+
 .group table td {
+    border: 3px solid green;
     height: 50px;
     width: 100px;
     text-align: center;
 }
 /*링크*/
-.link1 ul{
-    background-color: azure;
-    width: 500px;
-}
-.link1 li {
-    background-color: beige;
-    margin-bottom: 10px;
-}
 .link1 a{
     text-decoration-line: none;
 }
 .link1 a:hover {
     text-decoration-line: underline;
     color: white;
-    background-color: rgb(255, 86, 247);
-}
-
-.link1 li:hover {
-    background-color: blueviolet;
-    color: rgb(104, 180, 84);
+    background-color: rgb(241, 86, 255);
 }
 /*소사캠*/
 .school img{
